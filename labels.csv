@@ -28,4 +28,4 @@ role,MRI
 role,CardiacCT
 role,SENSOR
 role,Scanner
-role,SnartDevice
+role,SmartDevice
