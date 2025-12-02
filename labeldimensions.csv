@@ -1,0 +1,14 @@
+labeldimensions
+key,display_name,foreground_color,background_color,initial,display_name_plural,icon
+role,Role,,,,,
+app,Application,,,,,
+env,Environment,,,,,
+loc,Location,,,,,
+bu,Business Unit,#000000,#ebbb0f,BU,Business Units,group
+type,Type,#ffffff,#6972f2,T,Types,servers
+compliance,Compliance,#ffffff,#ff00ea,Co,Compliances,Cancel
+DFIRBubble,DFIR Bubble,#000000,#f8e726,IR,DFIR Bubble,Shield alt
+risk,Risk,#000000,#ff0000,Ri,Risks,Critical
+os,OS,#000000,#dfaf02,OS,OS,Adfs
+WZ,Wiz-Vuln,#ffffff,#c83734,wz,Wiz-Vuln,Clear
+kc,Kubernetes Cluster,#ffffff,#2347d0,KC,Kubernetes Clusters,Cloud custom
