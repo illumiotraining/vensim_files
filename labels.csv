@@ -119,4 +119,5 @@ loc,ca
 role,SnartDevice
 role,Scanner
 role,SENSOR
-role,CardiacCT
+
+role,Cardiac
