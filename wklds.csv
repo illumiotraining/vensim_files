@@ -1,0 +1,222 @@
+﻿hostname,role,app,env,loc,bu,type,risk,compliance,DFIRBubble,ip,enforcement
+vna-01,vna,imaging,prod,acme hospital,health,server,,HIPPA,IR-CLEANBUBBLE,,selective
+vna-02,vna,imaging,prod,acme hospital,health,server,,HIPPA,IR-CLEANBUBBLE,,selective
+img-jump-01,jumpbox,imaging,prod,acme hospital,health,server,,HIPPA,IR-CLEANBUBBLE,,selective
+pacs-01,pacs,imaging,prod,acme hospital,health,server,,HIPPA,IR-CLEANBUBBLE,,selective
+pacs-02,pacs,imaging,prod,acme hospital,health,server,,HIPPA,IR-CLEANBUBBLE,,selective
+acd-dc01-prd,dc,ad,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+acd-dc03-prd,dc,ad,prod,ny,it,server,,,IR-CLEANBUBBLE,,selective
+acd-dc04-prd,dc,ad,prod,ny,it,server,,,IR-CLEANBUBBLE,,selective
+acd-dc02-prd,dc,ad,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+ast-db02-prd,db,assetmgmt,prod,ca,commerce,server,,,IR-CLEANBUBBLE,,selective
+ast-db01-prd,db,assetmgmt,prod,ca,commerce,server,,,IR-CLEANBUBBLE,,selective
+ast-proc02-prd,processing,assetmgmt,prod,ca,commerce,server,,,IR-CLEANBUBBLE,,selective
+ast-proc01-prd,processing,assetmgmt,prod,ca,commerce,server,,,IR-CLEANBUBBLE,,selective
+ast-web02-prd,web,assetmgmt,prod,ca,commerce,server,,,IR-CLEANBUBBLE,,selective
+ast-web01-prd,web,assetmgmt,prod,ca,commerce,server,,,IR-CLEANBUBBLE,,selective
+ast-web03-prd,web,assetmgmt,prod,ca,commerce,server,,,IR-CLEANBUBBLE,,selective
+cat-db02-prd,db,catalog,prod,aws,commerce,server,,,IR-CLEANBUBBLE,,selective
+cat-db01-prd,db,catalog,prod,aws,commerce,server,,,IR-CLEANBUBBLE,,selective
+cat-proc02-prd,processing,catalog,prod,aws,commerce,server,,,IR-CLEANBUBBLE,,selective
+cat-proc01-prd,processing,catalog,prod,aws,commerce,server,,,IR-CLEANBUBBLE,,selective
+cat-proc03-prd,processing,catalog,prod,aws,commerce,server,,,IR-CLEANBUBBLE,,selective
+cat-web01-prd,web,catalog,prod,aws,commerce,server,,,IR-CLEANBUBBLE,,selective
+cat-web02-prd,web,catalog,prod,aws,commerce,server,,,IR-CLEANBUBBLE,,selective
+ecm-db01-prd,db,shareddb,prod,ca,commerce,server,,,IR-CLEANBUBBLE,,selective
+ecm-db02-prd,db,shareddb,prod,ca,commerce,server,,,IR-CLEANBUBBLE,,selective
+ecm-proc03-prd,processing,ecomm,prod,azure,commerce,server,,,IR-CLEANBUBBLE,,selective
+ecm-proc02-prd,processing,ecomm,prod,azure,commerce,server,,,IR-CLEANBUBBLE,,selective
+ecm-proc01-prd,processing,ecomm,prod,azure,commerce,server,,,IR-CLEANBUBBLE,,selective
+ecm-web01-prd,web,ecomm,prod,azure,commerce,server,,,IR-CLEANBUBBLE,,selective
+ecm-web03-prd,web,ecomm,prod,azure,commerce,server,,,IR-CLEANBUBBLE,,selective
+ecm-web04-prd,web,ecomm,prod,azure,commerce,server,,,IR-CLEANBUBBLE,,selective
+ecm-web05-prd,web,ecomm,prod,azure,commerce,server,,,IR-CLEANBUBBLE,,selective
+ecm-web06-prd,web,ecomm,prod,azure,commerce,server,,,IR-CLEANBUBBLE,,selective
+ecm-web02-prd,web,ecomm,prod,azure,commerce,server,,,IR-CLEANBUBBLE,,selective
+exc-et01-prd,edgetransport,exchange,prod,ny,it,server,,,IR-CLEANBUBBLE,,selective
+exc-et02-prd,edgetransport,exchange,prod,ny,it,server,,,IR-CLEANBUBBLE,,selective
+exc-mail01-prd,mailserver,exchange,prod,ny,it,server,,,IR-CLEANBUBBLE,,selective
+exc-mail02-prd,mailserver,exchange,prod,ny,it,server,,,IR-CLEANBUBBLE,,selective
+hrm-db01-prd,db,hrm,prod,ca,hr,server,,,IR-CLEANBUBBLE,,selective
+hrm-db02-prd,db,hrm,prod,ca,hr,server,,,IR-CLEANBUBBLE,,selective
+hrm-web02-prd,web,hrm,prod,ca,hr,server,,,IR-CLEANBUBBLE,,selective
+hrm-web01-prd,web,hrm,prod,ca,hr,server,,,IR-CLEANBUBBLE,,selective
+hrm-web03-prd,web,hrm,prod,ca,hr,server,,,IR-CLEANBUBBLE,,selective
+inf-nagios02-prd,nagios,monitoring,prod,ny,it,server,,,IR-CLEANBUBBLE,,selective
+inf-nagios01-prd,nagios,monitoring,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+inf-syslog01-prd,syslog,soc,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+inf-syslog02-prd,syslog,soc,prod,ny,it,server,,,IR-CLEANBUBBLE,,selective
+inf-time02-prd,time,infra-mgmt,prod,ny,it,server,,,IR-CLEANBUBBLE,,selective
+inf-time01-prd,time,infra-mgmt,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+ord-db02-dev,db,ordering,dev,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-db01-dev,db,ordering,dev,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-lb02-dev,loadbalancer,ordering,dev,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-lb01-dev,loadbalancer,ordering,dev,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-proc02-dev,processing,ordering,dev,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-proc01-dev,processing,ordering,dev,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-web02-dev,web,ordering,dev,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-web03-dev,web,ordering,dev,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-web01-dev,web,ordering,dev,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-db01-prd,db,ordering,prod,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-db02-prd,db,ordering,prod,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-db03-prd,db,ordering,prod,ldn,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-db04-prd,db,ordering,prod,ldn,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-db05-prd,db,ordering,prod,syd,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-db06-prd,db,ordering,prod,syd,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-lb01-prd,loadbalancer,ordering,prod,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-lb02-prd,loadbalancer,ordering,prod,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-proc01-prd,processing,ordering,prod,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-proc02-prd,processing,ordering,prod,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-proc03-prd,processing,ordering,prod,ldn,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-proc04-prd,processing,ordering,prod,ldn,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-proc05-prd,processing,ordering,prod,ldn,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-proc06-prd,processing,ordering,prod,syd,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-proc07-prd,processing,ordering,prod,syd,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-proc08-prd,processing,ordering,prod,syd,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-web01-prd,web,ordering,prod,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-web02-prd,web,ordering,prod,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-web03-prd,web,ordering,prod,ca,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-web04-prd,web,ordering,prod,syd,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-web05-prd,web,ordering,prod,ldn,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-web06-prd,web,ordering,prod,ldn,commerce,server,,,IR-DIRTYBUBBLE,,selective
+ord-web07-prd,web,ordering,prod,syd,commerce,server,,,IR-DIRTYBUBBLE,,selective
+pay-db01-prd,db,payment,prod,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-db02-prd,db,payment,prod,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-db03-prd,db,payment,prod,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-db04-prd,db,payment,prod,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-proc01-prd,processing,payment,prod,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-proc02-prd,processing,payment,prod,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-proc03-prd,processing,payment,prod,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-proc04-prd,processing,payment,prod,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-proc05-prd,processing,payment,prod,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-web01-prd,web,payment,prod,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-web02-prd,web,payment,prod,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-web03-prd,web,payment,prod,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-web04-prd,web,payment,prod,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pay-web05-prd,web,payment,prod,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-db01-pci,db,pos,pci,ny,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-db02-pci,db,pos,pci,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-db03-pci,db,pos,pci,ny,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-db04-pci,db,pos,pci,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc01-pci,processing,pos,pci,ny,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc02-pci,processing,pos,pci,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc03-pci,processing,pos,pci,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc04-pci,processing,pos,pci,ny,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc05-pci,processing,pos,pci,ny,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc06-pci,processing,pos,pci,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-web01-pci,web,pos,pci,ny,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-web02-pci,web,pos,pci,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-web03-pci,web,pos,pci,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-web04-pci,web,pos,pci,ny,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-db01-stg,db,pos,staging,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-db02-stg,db,pos,staging,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-db03-stg,db,pos,staging,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-db04-stg,db,pos,staging,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-db05-stg,db,pos,staging,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-db06-stg,db,pos,staging,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc01-stg,processing,pos,staging,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc02-stg,processing,pos,staging,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc03-stg,processing,pos,staging,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc04-stg,processing,pos,staging,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc05-stg,processing,pos,staging,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc06-stg,processing,pos,staging,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc07-stg,processing,pos,staging,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc08-stg,processing,pos,staging,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-proc09-stg,processing,pos,staging,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-web01-stg,web,pos,staging,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-web02-stg,web,pos,staging,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-web03-stg,web,pos,staging,syd,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-web04-stg,web,pos,staging,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-web05-stg,web,pos,staging,ca,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+pos-web06-stg,web,pos,staging,ldn,banking,server,,pci-DSS,IR-DIRTYBUBBLE,,selective
+prc-db02-prd,db,procurement,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+prc-db01-prd,db,procurement,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+prc-proc01-prd,processing,procurement,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+prc-proc02-prd,processing,procurement,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+prc-web01-prd,web,procurement,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+prc-web03-prd,web,procurement,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+prc-web02-prd,web,procurement,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+shc-db01-prd,db,shareddb,prod,ca,commerce,server,,,IR-CLEANBUBBLE,,selective
+shc-db02-prd,db,shareddb,prod,ca,commerce,server,,,IR-CLEANBUBBLE,,selective
+shc-proc01-prd,processing,cart,prod,aws,commerce,server,,,IR-CLEANBUBBLE,,selective
+shc-proc02-prd,processing,cart,prod,aws,commerce,server,,,IR-CLEANBUBBLE,,selective
+shc-proc03-prd,processing,cart,prod,aws,commerce,server,,,IR-CLEANBUBBLE,,selective
+shc-web01-prd,web,cart,prod,aws,commerce,server,,,IR-CLEANBUBBLE,,selective
+shc-web02-prd,web,cart,prod,aws,commerce,server,,,IR-CLEANBUBBLE,,selective
+swf-gw03-prd,gateway,swift,prod,ldn,banking,server,,SWIFT,IR-DIRTYBUBBLE,,selective
+swf-gw04-prd,gateway,swift,prod,ldn,banking,server,,SWIFT,IR-DIRTYBUBBLE,,selective
+swf-gw02-prd,gateway,swift,prod,ny,banking,server,,SWIFT,IR-DIRTYBUBBLE,,selective
+swf-gw01-prd,gateway,swift,prod,ny,banking,server,,SWIFT,IR-DIRTYBUBBLE,,selective
+swf-web08-prd,web,swift,prod,ldn,banking,server,,SWIFT,IR-DIRTYBUBBLE,,selective
+swf-web04-prd,web,swift,prod,ldn,banking,server,,SWIFT,IR-DIRTYBUBBLE,,selective
+swf-web07-prd,web,swift,prod,ldn,banking,server,,SWIFT,IR-DIRTYBUBBLE,,selective
+swf-web05-prd,web,swift,prod,ldn,banking,server,,SWIFT,IR-DIRTYBUBBLE,,selective
+swf-web06-prd,web,swift,prod,ldn,banking,server,,SWIFT,IR-DIRTYBUBBLE,,selective
+swf-web02-prd,web,swift,prod,ny,banking,server,,SWIFT,IR-DIRTYBUBBLE,,selective
+swf-web03-prd,web,swift,prod,ny,banking,server,,SWIFT,IR-DIRTYBUBBLE,,selective
+swf-web01-prd,web,swift,prod,ny,banking,server,,SWIFT,IR-DIRTYBUBBLE,,selective
+inf-jh01-prd,jumpbox,jump-infra,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+inf-jh02-prd,jumpbox,jump-infra,prod,ca,it,server,,,IR-CLEANBUBBLE,,selective
+exc-netapp01-prd,filer,exchange,prod,ny,it,server,,,IR-CLEANBUBBLE,10.30.100.5,selective
+exc-netapp02-prd,filer,exchange,prod,ny,it,server,,,IR-CLEANBUBBLE,10.30.100.6,selective
+ctr01,counter,packaging,prod,bos,manufacturing,server,,,IR-CLEANBUBBLE,10.40.100.2,selective
+ctr02,counter,packaging,prod,bos,manufacturing,server,,,IR-CLEANBUBBLE,10.40.100.3,selective
+ctr03,counter,packaging,prod,bos,manufacturing,server,,,IR-CLEANBUBBLE,10.40.100.4,selective
+ctr04,counter,packaging,prod,bos,manufacturing,server,,,IR-CLEANBUBBLE,10.40.100.5,selective
+ctr05,counter,packaging,prod,bos,manufacturing,server,,,IR-CLEANBUBBLE,10.40.100.6,selective
+mac-endpoint-1,Workstations,Users,VDI,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+mac-endpoint-2,Workstations,Users,VDI,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+mac-endpoint-3,Workstations,Users,VDI,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+mac-endpoint-4,Workstations,Users,VDI,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+mac-endpoint-5,Workstations,Users,VDI,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+mac-endpoint-6,Workstations,Users,VDI,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+win-endpoint-1,Workstations,Users,Administrators,Endpoints,it,endpoint,Low Risk,,IR-RECOVERY-TEAM,,selective
+win-endpoint-2,Workstations,Users,Administrators,Endpoints,it,endpoint,Low Risk,,IR-RECOVERY-TEAM,,selective
+win-endpoint-3,Workstations,Users,Laptops,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+win-endpoint-4,Workstations,Users,Laptops,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+win-endpoint-5,Workstations,Users,Laptops,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+win-endpoint-6,Workstations,Users,Laptops,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+win-endpoint-7,Workstations,Users,Laptops,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+win-endpoint-8,Workstations,Users,Laptops,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+win-endpoint-9,Workstations,Users,Laptops,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+win-endpoint-10,Workstations,Users,Laptops,Endpoints,commerce,endpoint,High Risk,,IR-CLEANBUBBLE,,selective
+devicesiotsydneyipcamera2,IPCamera,Devices,IoT,Sydney,,,,,,172.16.3.78,selective
+devicespcicaterm1,Term,Devices,PCI,CA,,,,,,172.16.3.69,selective
+devicespcicaterm2,Term,Devices,PCI,CA,,,,,,172.16.3.70,selective
+devicesotsydneyplc1,PLC,Devices,OT,Sydney,,,,,,172.16.3.71,selective
+devicesotsydnescada1,SCADA,Devices,OT,Sydney,,,,,,172.16.3.72,selective
+devicesotsydnesensor1,SENSOR,Devices,OT,Sydney,,,,,,172.16.3.73,selective
+devicesiomtsydneymri1,MRI,Devices,IoMT,Sydney,,,,,,172.16.3.74,selective
+devicesiomtsydneylinac1,LINAC,Devices,IoMT,Sydney,,,,,,172.16.3.75,selective
+devicesiomtsydneycardiacct1,CardiacCT,Devices,IoMT,Sydney,,,,,,172.16.3.76,selective
+devicesiotsydneyipcamera1,IPCamera,Devices,IoT,Sydney,,,,,,172.16.3.77,selective
+devicesiotsydneyipcamera3,IPCamera,Devices,IoT,Sydney,,,,,,172.16.3.79,selective
+devicesiotsydneysmartdevice1,SmartDevice,Devices,IoT,Sydney,,,,,,172.16.3.80,selective
+devicesiotsydneyscanner1,Scanner,Devices,IoT,Sydney,,,,,,172.16.3.81,selective
+devicesotcaplc1,PLC,Devices,OT,CA,,,,,,172.16.3.82,selective
+devicesotcaplc2,PLC,Devices,OT,CA,,,,,,172.16.3.83,selective
+devicesotcaplc3,PLC,Devices,OT,CA,,,,,,172.16.3.84,selective
+devicesotcaplc4,PLC,Devices,OT,CA,,,,,,172.16.3.85,selective
+devicesotcascada1,SCADA,Devices,OT,CA,,,,,,172.16.3.86,selective
+devicesotcasensor1,SENSOR,Devices,OT,CA,,,,,,172.16.3.87,selective
+devicesiomtcamri1,MRI,Devices,IoMT,CA,,,,,,172.16.3.88,selective
+devicesiomtcamri2,MRI,Devices,IoMT,CA,,,,,,172.16.3.89,selective
+devicesiomtcalinac1,LINAC,Devices,IoMT,CA,,,,,,172.16.3.90,selective
+devicesiomtcacardiacct1,CardiacCT,Devices,IoMT,CA,,,,,,172.16.3.91,selective
+devicesiotcaipcamera1,IPCamera,Devices,IoT,CA,,,,,,172.16.3.92,selective
+devicesiotcaipcamera2,IPCamera,Devices,IoT,CA,,,,,,172.16.3.93,selective
+devicesiotcaipcamera3,IPCamera,Devices,IoT,CA,,,,,,172.16.3.94,selective
+devicesiotcasmartdevice1,SmartDevice,Devices,IoT,CA,,,,,,172.16.3.95,selective
+devicesiotcascanner1,Scanner,Devices,IoT,CA,,,,,,172.16.3.96,selective
+plc-ctrl-01,plc,packaging,prod,bos,,,,,,10.60.101.100,visibility_only
+Optima XR220amx,xray,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.23,visibility_only
+OrthoScan Mini C-Arm,xray,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.25,visibility_only
+Aquilion ONE CT Scanner,ct,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.10,visibility_only
+Excite-MRI-1,mri,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.20,visibility_only
+AqONEScannerSurg6,ct,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.17,visibility_only
+OrthoScan Mini C-Arm 4,xray,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.22,visibility_only
+OPCMR9,mri,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.15,visibility_only
+MAGNETOM Skyra,mri,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.18,visibility_only
+LightSpeed-VCT04,ct,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.13,visibility_only
+SOMATOM-CT006,ct,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.12,visibility_only
+MRC40273,mri,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.16,visibility_only
