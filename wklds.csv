@@ -208,15 +208,3 @@ devicesiotcaipcamera2,IPCamera,Devices,IoT,CA,,,,,,172.16.3.93,selective
 devicesiotcaipcamera3,IPCamera,Devices,IoT,CA,,,,,,172.16.3.94,selective
 devicesiotcasmartdevice1,SmartDevice,Devices,IoT,CA,,,,,,172.16.3.95,selective
 devicesiotcascanner1,Scanner,Devices,IoT,CA,,,,,,172.16.3.96,selective
-plc-ctrl-01,plc,packaging,prod,bos,,,,,,10.60.101.100,visibility_only
-Optima XR220amx,xray,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.23,visibility_only
-OrthoScan Mini C-Arm,xray,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.25,visibility_only
-Aquilion ONE CT Scanner,ct,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.10,visibility_only
-Excite-MRI-1,mri,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.20,visibility_only
-AqONEScannerSurg6,ct,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.17,visibility_only
-OrthoScan Mini C-Arm 4,xray,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.22,visibility_only
-OPCMR9,mri,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.15,visibility_only
-MAGNETOM Skyra,mri,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.18,visibility_only
-LightSpeed-VCT04,ct,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.13,visibility_only
-SOMATOM-CT006,ct,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.12,visibility_only
-MRC40273,mri,imaging,medical,acme hospital,health,,,HIPPA,IR-CLEANBUBBLE,10.50.126.16,visibility_only
