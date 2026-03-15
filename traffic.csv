@@ -1,4 +1,4 @@
-src_ip,src_hostname,src_process,src_service,src_username,dst_ip,dst_hostname,dst_fqdn,port,proto,dst_process,dst_service,dst_username,policy_decision
+﻿src_ip,src_hostname,src_process,src_service,src_username,dst_ip,dst_hostname,dst_fqdn,port,proto,dst_process,dst_service,dst_username,policy_decision
 9.9.9.9,,,,,10.0.0.5,ord-lb01-dev,,443,6,httpd,,root,potentially_blocked
 9.9.9.9,,,,,10.0.1.19,ord-lb02-prd,,443,6,httpd,,root,potentially_blocked
 85.151.14.15,,,,,10.0.0.3,ord-lb02-dev,,443,6,httpd,,root,potentially_blocked
@@ -1379,11 +1379,13 @@ src_ip,src_hostname,src_process,src_service,src_username,dst_ip,dst_hostname,dst
 172.16.3.98,Win-endpoint-2,,,,172.16.3.104,Win-endpoint-8,,3389,6,,,,potentially_blocked
 172.16.3.97,Win-endpoint-1,,,,172.16.3.105,Win-endpoint-9,,3389,6,,,,potentially_blocked
 172.16.3.105,Win-endpoint-9,,,,172.16.3.106,Win-endpoint-10,,3389,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.100,Win-endpoint-4,,3389,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.103,Win-endpoint-7,,3389,6,,,,potentially_blocked
 172.16.3.107,Mac-endpoint-1,,,,172.16.3.108,Mac-endpoint-2,,5900,6,,,,potentially_blocked
 172.16.3.107,Mac-endpoint-1,,,,172.16.3.109,Mac-endpoint-3,,5900,6,,,,potentially_blocked
-172.16.3.107,Mac-endpoint-1,,,,172.16.3.110,Mac-endpoint-4,,5900,6,,,,potentially_blocked
-172.16.3.107,Mac-endpoint-1,,,,172.16.3.111,Mac-endpoint-5,,5900,6,,,,potentially_blocked
-172.16.3.107,Mac-endpoint-1,,,,172.16.3.110,Mac-endpoint-4,,5900,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.109,Mac-endpoint-4,,5900,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.110,Mac-endpoint-5,,5900,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,172.16.3.111,Mac-endpoint-6,,5900,6,,,,potentially_blocked
 172.16.3.107,Mac-endpoint-1,,,,172.16.3.46,crmprodcaweb1,,443,6,,,,potentially_blocked
 172.16.3.108,Mac-endpoint-2,,,,172.16.3.46,crmprodcaweb1,,443,6,,,,potentially_blocked
 172.16.3.101,Win-endpoint-5,,,,172.16.3.104,Win-endpoint-8,,3389,6,,,,potentially_blocked
@@ -1534,7 +1536,13 @@ src_ip,src_hostname,src_process,src_service,src_username,dst_ip,dst_hostname,dst
 10.0.1.67,swf-web07-prd,telnet,,root,10.0.1.84,swf-gw03-prd,,23,6,,,,potentially_blocked
 10.0.1.67,swf-web07-prd,telnet,,root,10.0.1.69,swf-gw04-prd,,23,6,,,,potentially_blocked
 10.0.1.73,swf-web08-prd,telnet,,root,10.0.1.84,swf-gw03-prd,,23,6,,,,potentially_blocked
-172.16.3.105,Win-endpoint-2,,,,172.16.3.106,Win-endpoint-10,,3389,6,,,,potentially_blocked
+172.16.3.97,Win-endpoint-1,,,,172.16.3.99,Win-endpoint-3,,5985,6,,,,potentially_blocked
+172.16.3.97,Win-endpoint-1,,,,172.16.3.100,Win-endpoint-4,,5985,6,,,,potentially_blocked
+172.16.3.98,Win-endpoint-2,,,,172.16.3.103,Win-endpoint-7,,5985,6,,,,potentially_blocked
+172.16.3.98,Win-endpoint-2,,,,172.16.3.104,Win-endpoint-8,,5985,6,,,,potentially_blocked
+172.16.3.97,Win-endpoint-1,,,,172.16.3.105,Win-endpoint-9,,5985,6,,,,potentially_blocked
+172.16.3.105,Win-endpoint-2,,,,172.16.3.106,Win-endpoint-10,,5985,6,,,,potentially_blocked
+172.16.3.107,Win-endpoint-2,,,,172.16.3.102,Win-endpoint-6,,5985,6,,,,potentially_blocked
 10.0.2.136,pos-proc03-stg,,,root,10.0.2.132,pos-db04-stg,,20,6,,,,potentially_blocked
 10.0.2.136,pos-proc03-stg,,,,10.0.2.132,pos-db04-stg,,20,6,,,root,potentially_blocked
 10.0.2.136,pos-proc03-stg,,,root,10.0.2.8,pos-db03-stg,,20,6,,,,potentially_blocked
@@ -1699,54 +1707,114 @@ src_ip,src_hostname,src_process,src_service,src_username,dst_ip,dst_hostname,dst
 172.16.3.101,win-endpoint-5,mstsc.exe,,illumio\rswanson,10.0.1.140,exc-mail02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
 172.16.3.101,win-endpoint-5,mstsc.exe,,illumio\rswanson,10.0.1.22,acd-dc01-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
 172.16.3.101,win-endpoint-5,mstsc.exe,,illumio\rswanson,10.0.1.130,acd-dc03-prd,,3389,17,svchost.exe,,NT AUTHORITY\NETWORK SERVICE,potentially_blocked
-172.16.3.107,Mac-endpoint-1,Google Chrome,,,18.161.21.34,,espn.com,443,6,,,,potentially_blocked
-172.16.3.107,Mac-endpoint-1,Google Chrome,,,142.251.41.14,,google.com,443,6,,,,potentially_blocked
-172.16.3.107,Mac-endpoint-1,Google Chrome,,,23.33.253.151,,weather.com,443,6,,,,potentially_blocked
+192.168.5.5,mac-endpoint-1,Google Chrome,,,18.161.21.34,,espn.com,443,6,,,,potentially_blocked
+192.168.5.5,mac-endpoint-1,Google Chrome,,,142.251.41.14,,google.com,443,6,,,,potentially_blocked
+192.168.5.5,mac-endpoint-1,Google Chrome,,,23.33.253.151,,weather.com,443,6,,,,potentially_blocked
 172.16.3.107,Mac-endpoint-1,,,,10.0.1.2,inf-jh01-prd,,22,6,,,,potentially_blocked
 172.16.3.107,Mac-endpoint-1,,,,10.0.1.7,inf-jh02-prd,,22,6,,,,potentially_blocked
 172.16.3.101,Win-endpoint-5,mstsc.exe,,illumio\rswanson,10.0.1.2,inf-jh01-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
 172.16.3.102,Win-endpoint-6,mstsc.exe,,illumio\lknope,10.0.1.7,inf-jh02-prd,,3389,6,svchost.exe,TermService,NETWORK SERVICE,potentially_blocked
 10.0.1.2,inf-jh01-prd,putty.exe,,illumio\rswanson,10.0.2.66,pos-db01-stg,,22,6,sshd,,root,potentially_blocked
-172.16.3.97,Win-endpoint-1,,,,172.16.3.107,Mac-endpoint-1,,3389,6,,,,potentially_blocked
-172.16.3.97,Win-endpoint-1,,,,172.16.3.107,Mac-endpoint-1,,3389,6,,,,potentially_blocked
-172.16.3.98,Win-endpoint-2,,,,172.16.3.109,Mac-endpoint-3,,3389,6,,,,potentially_blocked
-172.16.3.98,Win-endpoint-2,,,,172.16.3.110,Mac-endpoint-4,,3389,6,,,,potentially_blocked
-172.16.3.108,Mac-endpoint-2,,,,172.16.3.109,Mac-endpoint-3,,5900,6,,,,potentially_blocked
-172.16.3.110,Mac-endpoint-4,,,,172.16.3.111,Mac-endpoint-5,,5900,6,,,,potentially_blocked
-172.16.3.103,Win-endpoint-7,,,,172.16.3.107,Mac-endpoint-1,,3389,6,,,,potentially_blocked
-172.16.3.105,Win-endpoint-4,,,,172.16.3.109,Mac-endpoint-3,,5985,6,,,,potentially_blocked
-172.16.3.100,Win-endpoint-4,,,,172.16.3.103,Win-endpoint-7,,5900,6,,,,potentially_blocked
-172.16.3.101,Win-endpoint-5,,,,172.16.3.103,Win-endpoint-7,,3389,6,,,,potentially_blocked
-172.16.3.78,devicesiotfrankfurtipcamera2,,,,10.0.1.81,pay-db01-prd,,22,6,,,,potentially_blocked
-172.16.3.78,devicesiotfrankfurtipcamera2,,,,10.0.1.85,pay-db02-prd,,22,6,,,,potentially_blocked
-172.16.3.111,Mac-endpoint-5,,,,10.0.1.14,hrm-web02-prd,,443,6,httpd,,,potentially_blocked
-172.16.3.110,Mac-endpoint-4,,,,10.0.1.16,hrm-web01-prd,,80,6,httpd,,,potentially_blocked
-172.16.3.100,Win-endpoint-4,,,,10.0.1.23,hrm-web03-prd,,80,6,httpd,,,potentially_blocked
-172.16.3.101,Win-endpoint-5,,,,10.0.1.16,hrm-web01-prd,,443,6,httpd,,,potentially_blocked
-172.16.3.99,Win-endpoint-3,,,,172.16.3.100,Win-endpoint-4,,5900,6,,,,potentially_blocked
-172.16.3.102,Win-endpoint-6,,,,172.16.3.104,Win-endpoint-8,,5900,6,,,,potentially_blocked
-172.16.3.106,Win-endpoint-10,,,,172.16.3.104,Win-endpoint-8,,22,6,,,,potentially_blocked
-172.16.3.106,Win-endpoint-10,,,,172.16.3.99,Win-endpoint-3,,22,6,,,,potentially_blocked
-172.16.3.103,Win-endpoint-7,,,,172.16.3.101,Win-endpoint-5,,22,6,,,,potentially_blocked
-10.60.101.100,plc-ctrl-01,,,,10.50.126.16,MRC40273,,502,6,,,,potentially_blocked
-10.50.126.23,Optima XR220amx,,,,10.0.1.144,vna-01,,3389,6,,,,potentially_blocked
-10.50.126.25,OrthoScan Mini C-Arm,,,,10.0.1.147,pacs-01,,3389,6,,,,potentially_blocked
+10.0.1.27,ord-proc01-prd,mysqld,,mysql,10.20.1.188,,,3306,6,,,,potentially_blocked
+10.0.1.33,ord-proc02-prd,mysqld,,mysql,10.20.1.188,,,3306,6,,,,potentially_blocked
+10.0.1.80,ord-proc03-prd,mysqld,,mysql,10.20.1.188,,,3306,6,,,,potentially_blocked
+10.0.1.71,ord-proc04-prd,mysqld,,mysql,10.20.1.188,,,3306,6,,,,potentially_blocked
+172.16.3.97,win-endpoint-1,putty.exe,,ssh,10.40.0.5,,,22,6,sshd,,,potentially_blocked
+172.16.3.99,win-endpoint-3,putty.exe,,ssh,10.40.0.5,,,22,6,sshd,,,potentially_blocked
+172.16.3.103,win-endpoint-7,putty.exe,,ssh,10.40.0.5,,,22,6,sshd,,,potentially_blocked
+172.16.3.108,mac-endpoint-2,,,ssh,10.40.0.5,,,22,6,sshd,,,potentially_blocked
+172.16.3.111,mac-endpoint-5,,,ssh,10.40.0.5,,,22,6,sshd,,,potentially_blocked
+172.16.3.98,win-endpoint-2,putty.exe,,ssh,10.20.1.121,,,22,6,sshd,,,potentially_blocked
+172.16.3.104,win-endpoint-8,putty.exe,,ssh,10.20.1.121,,,22,6,sshd,,,potentially_blocked
+172.16.3.112,mac-endpoint-6,,,ssh,10.20.1.121,,,22,6,sshd,,,potentially_blocked
+10.0.0.71,pos-db02-pci,,,mysql,10.20.1.88,,,3306,6,mysqld,,,potentially_blocked
+10.0.0.71,pos-db02-pci,,,mysql,10.20.3.211,,,3306,6,mysqld,,,potentially_blocked
+10.0.0.200,ecm-proc02-prd,,,,10.20.1.112,,,443,6,httpd,,,potentially_blocked
 10.50.126.10,Aquilion ONE CT Scanner,,,,10.0.1.147,pacs-01,,5355,6,,,,potentially_blocked
-10.50.126.20,Excite-MRI-1,,,,10.0.1.147,pacs-01,,161,6,,,,potentially_blocked
-10.50.126.17,AqONEScannerSurg6,,,,10.0.1.146,img-jump-01,,443,6,httpd,,,potentially_blocked
-10.50.126.22,OrthoScan Mini C-Arm 4,,,,10.0.1.146,img-jump-01,,3389,6,,,,potentially_blocked
-10.50.126.15,OPCMR9,,,,10.0.1.147,pacs-01,,443,6,httpd,,,potentially_blocked
-10.60.101.100,plc-ctrl-01,,,,10.50.126.16,MRC40273,,502,6,,,,potentially_blocked
-10.50.126.25,OrthoScan Mini C-Arm,,,,10.0.1.147,pacs-01,,3389,6,,,,potentially_blocked
-10.50.126.18,MAGNETOM Skyra,,,,10.0.1.144,vna-01,,443,6,,,,potentially_blocked
+10.50.126.11,Revolution CT,,,,10.0.1.148,pacs-02,,5355,6,,,,potentially_blocked
+10.50.126.12,SOMATOM-CT006,,,,10.0.1.146,img-jump-01,,5355,6,,,,potentially_blocked
+10.50.126.13,LightSpeed-VCT04,,,,10.0.1.144,vna-01,,5355,6,,,,potentially_blocked
+10.50.126.14,CT-OR LightSpeed,,,,10.0.1.145,vna-02,,5355,6,,,,potentially_blocked
 10.50.126.15,OPCMR9,,,,10.0.1.147,pacs-01,,443,6,,,,potentially_blocked
-10.50.126.13,LightSpeed-VCT04,,,,10.0.1.144,vna-01,,5355,6,,,,potentially_blocked
-10.50.126.12,SOMATOM-CT006,,,,10.0.1.146,img-jump-01,,5355,6,,,,potentially_blocked
-10.50.126.17,AqONEScannerSurg6,,,,10.0.1.146,img-jump-01,,443,6,httpd,,,potentially_blocked
-10.50.126.18,MAGNETOM Skyra,,,,10.0.1.144,vna-01,,443,6,httpd,,,potentially_blocked
-10.50.126.10,Aquilion ONE CT Scanner,,,,10.0.1.147,pacs-01,,5355,6,,,,potentially_blocked
-10.50.126.23,Optima XR220amx,,,,10.0.1.144,vna-01,,3389,6,,,,potentially_blocked
-10.50.126.22,OrthoScan Mini C-Arm 4,,,,10.0.1.146,img-jump-01,,3389,6,,,,potentially_blocked
+10.50.126.16,MRC40273,,,,10.0.1.148,pacs-02,,443,6,,,,potentially_blocked
+10.50.126.17,AqONEScannerSurg6,,,,10.0.1.146,img-jump-01,,443,6,,,,potentially_blocked
+10.50.126.18,MAGNETOM Skyra,,,,10.0.1.144,vna-01,,443,6,,,,potentially_blocked
+10.50.126.19,Philips Allura Xper Xray,,,,10.0.1.145,vna-02,,161,6,,,,potentially_blocked
 10.50.126.20,Excite-MRI-1,,,,10.0.1.147,pacs-01,,161,6,,,,potentially_blocked
-10.50.126.12,SOMATOM-CT006,,,,10.0.1.146,img-jump-01,,5355,6,,,,potentially_blocked
-10.50.126.13,LightSpeed-VCT04,,,,10.0.1.144,vna-01,,5355,6,,,,potentially_blocked
+10.50.126.21,DRX-Revolution,,,,10.0.1.148,pacs-02,,161,6,,,,potentially_blocked
+10.50.126.22,OrthoScan Mini C-Arm 4,,,,10.0.1.146,img-jump-01,,3389,6,,,,potentially_blocked
+10.50.126.23,Optima XR220amx,,,,10.0.1.144,vna-01,,3389,6,,,,potentially_blocked
+10.50.126.24,PhilMD-ER-XRay02,,,,10.0.1.145,vna-02,,3389,6,,,,potentially_blocked
+10.50.126.25,OrthoScan Mini C-Arm,,,,10.0.1.147,pacs-01,,3389,6,,,,potentially_blocked
+10.50.126.26,DRX-Revolution,,,,10.0.1.148,pacs-02,,3389,6,,,,potentially_blocked
+10.60.100.25,pckg-ctrl-01,,,,10.40.100.2,ctr01,,502,6,,,,potentially_blocked
+10.60.100.25,pckg-ctrl-01,,,,10.40.100.3,ctr02,,502,6,,,,potentially_blocked
+10.60.100.25,pckg-ctrl-01,,,,10.40.100.4,ctr03,,502,6,,,,potentially_blocked
+10.60.100.25,pckg-ctrl-01,,,,10.40.100.5,ctr04,,502,6,,,,potentially_blocked
+10.60.100.25,pckg-ctrl-01,,,,10.40.100.6,ctr05,,502,6,,,,potentially_blocked
+10.60.100.26,pckg-ctrl-02,,,,10.40.100.2,ctr01,,502,6,,,,potentially_blocked
+10.60.100.26,pckg-ctrl-02,,,,10.40.100.3,ctr02,,502,6,,,,potentially_blocked
+10.60.100.26,pckg-ctrl-02,,,,10.40.100.4,ctr03,,502,6,,,,potentially_blocked
+10.60.100.26,pckg-ctrl-02,,,,10.40.100.5,ctr04,,502,6,,,,potentially_blocked
+10.60.100.26,pckg-ctrl-02,,,,10.40.100.6,ctr05,,502,6,,,,potentially_blocked
+10.60.101.100,plc-ctrl-01,,,,10.50.126.16,MRC40273,,502,6,,,,potentially_blocked
+10.60.101.101,plc-ctrl-02,,,,10.50.126.16,MRC40273,,502,6,,,,potentially_blocked
+10.60.102.11,scada-ctrl-01,,,,10.50.126.37,devicesotcaplc4,,502,6,,,,potentially_blocked
+10.60.102.11,scada-ctrl-01,,,,10.50.126.38,devicesotcascada1,,502,6,,,,potentially_blocked
+10.60.102.11,scada-ctrl-01,,,,10.50.126.41,devicesotfrankfurtscada1,,502,6,,,,potentially_blocked
+10.60.102.12,scada-ctrl-02,,,,10.50.126.37,devicesotcaplc4,,502,6,,,,potentially_blocked
+10.60.102.12,scada-ctrl-02,,,,10.50.126.38,devicesotcascada1,,502,6,,,,potentially_blocked
+10.60.102.12,scada-ctrl-02,,,,10.50.126.41,devicesotfrankfurtscada1,,502,6,,,,potentially_blocked
+10.60.102.13,snsr-ctrl-01,,,,10.50.126.39,devicesotcasensor1,,502,6,,,,potentially_blocked
+10.60.102.13,snsr-ctrl-01,,,,10.50.126.42,devicesotfrankfurtsensor1,,502,6,,,,potentially_blocked
+10.60.102.14,snsr-ctrl-02,,,,10.50.126.39,devicesotcasensor1,,502,6,,,,potentially_blocked
+10.60.102.14,snsr-ctrl-02,,,,10.50.126.42,devicesotfrankfurtsensor1,,502,6,,,,potentially_blocked
+10.0.1.18,ord-db01-prd,,,,10.60.1.133,,,3306,6,,,,potentially_blocked
+10.0.1.29,ord-db02-prd,,,,10.60.1.133,,,3306,6,,,,potentially_blocked
+172.16.3.107,Mac-endpoint-1,,,,10.60.1.32,,,22,6,,,,potentially_blocked
+10.0.1.13,hrm-db01-prd,mysqld,,mysql,10.1.2.71,,,3306,6,,,,potentially_blocked
+10.0.1.11,hrm-db02-prd,mysqld,,mysql,10.1.2.72,,,3306,6,,,,potentially_blocked
+10.0.1.23,10.1.2.71,,,,10.0.1.13,hrm-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.23,10.1.2.72,,,,10.0.1.11,hrm-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+10.0.1.2,inf-jh01-prd,putty.exe,,illumio\rswanson,192.168.1.7,,,22,6,,,,potentially_blocked
+10.0.1.7,inf-jh02-prd,putty.exe,,illumio\bwaytt,192.168.1.7,,,22,6,,,,potentially_blocked
+172.16.3.102,Win-endpoint-6,chrome.exe,,illumio\rswanson,192.168.2.8,,,443,6,,,,potentially_blocked
+172.16.3.110,Mac-endpoint-4,safari,,illumio\thaverford,192.168.2.8,,,443,6,,,,potentially_blocked
+10.0.0.131,shc-db01-prd,mysqld,,mysql,192.168.2.71,,,3306,6,,,,potentially_blocked
+10.0.0.143,shc-db02-prd,mysqld,,mysql,192.168.2.72,,,3306,6,,,,potentially_blocked
+192.168.2.71,,,,,10.0.0.131,shc-db01-prd,,3306,6,mysqld,,mysql,potentially_blocked
+192.168.2.72,,,,,10.0.0.143,shc-db02-prd,,3306,6,mysqld,,mysql,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.199,ord-db06-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.195,ord-db05-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.194,ord-proc07-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.202,ord-proc06-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.196,ord-proc08-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.68,ord-db03-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.74,ord-db04-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.80,ord-proc03-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.77,ord-proc05-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.1.71,ord-proc04-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.1.80,ord-proc03-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.1.77,ord-proc05-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.1.71,ord-proc04-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.2.66,pos-db01-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.2.2,pos-db02-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.2.8,pos-db03-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.2.132,pos-db04-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.101,win-endpoint-5,putty.exe,,illumio\rswanson,10.0.2.72,pos-db06-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.2.70,pos-web01-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.2.130,pos-web02-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.2.135,pos-web03-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.2.6,pos-web04-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.2.7,pos-web05-stg,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.0.74,pos-proc05-pci,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.0.77,pos-proc04-pci,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.0.75,pos-proc01-pci,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.1.70,pay-web05-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.1.72,pay-web03-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.1.86,pay-web04-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.1.81,pay-db01-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.1.85,pay-db02-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.1.81,pay-db01-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.1.79,pay-proc01-prd,,22,6,sshd,,root,potentially_blocked
+172.16.3.102,Win-endpoint-6,putty.exe,,illumio\cdwyer,10.0.1.82,pay-proc03-prd,,22,6,sshd,,root,potentially_blocked
