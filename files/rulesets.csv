@@ -1,0 +1,16 @@
+ruleset_name,enabled,description,scope,contains_custom_iptables_rules
+1. Ransomware Propogation Deny,TRUE,,,FALSE
+2. OT-IT separation,TRUE,,,FALSE
+3. Dev Prod Separation,TRUE,,,FALSE
+4. Critical Asset Protection,TRUE,,compliance:SWIFT,FALSE
+5. Admin Access Policy,TRUE,,,FALSE
+6. Off Domain laptop Policy,TRUE,,,FALSE
+7. Cloud Workload Migration,TRUE,,app:pos,FALSE
+8. Adaptive User Segmentation ,TRUE,,,FALSE
+9. Block malicious IPs from threat feed,TRUE,,,FALSE
+10. Quarantine,TRUE,,,FALSE
+11. Core Services,TRUE,,,FALSE
+12. activedirectory | prod,TRUE,,app:ad;env:Production,FALSE
+13. ordering | prod,TRUE,,app:ordering;env:Production,FALSE
+14. pos | pci,TRUE,,app:pos;env:PCI,FALSE
+15. IR,FALSE,,,FALSE
